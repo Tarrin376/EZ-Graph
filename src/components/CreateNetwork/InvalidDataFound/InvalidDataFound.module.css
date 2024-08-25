@@ -1,0 +1,15 @@
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    width: 100px !important;
+    height: 36px !important;
+}
+
+.message {
+    margin-bottom: 20px;
+}

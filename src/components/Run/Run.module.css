@@ -1,0 +1,18 @@
+
+.run {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.runButton {
+    height: 24px;
+    cursor: pointer;
+}
+
+.runResultWrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

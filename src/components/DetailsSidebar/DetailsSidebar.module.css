@@ -1,0 +1,70 @@
+
+.detailsSidebar {
+    border-left: 1px solid #C5C5C5;
+    padding: 0px !important;
+}
+
+.toggleSidebarButton {
+    background-color: white;
+    border: 1px solid #929292;
+    border-radius: 6px;
+    width: 32px;
+    height: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    left: -16px;
+    top: 19px;
+    cursor: pointer;
+    z-index: 40;
+}
+
+.detailPairs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.subSectionWrapper {
+    padding-bottom: 17px;
+    border-bottom: 1px solid #C5C5C5;
+}
+
+.detailsWrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.finishTesting {
+    width: 100%;
+    height: 45px;
+}
+
+.detailsWrapper {
+    overflow-y: scroll;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.finishTestingWrapper {
+    flex-grow: 1;
+    position: relative;
+    min-height: 75px;
+}
+
+.finishTestingInnerWrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #C5C5C5;
+    height: fit-content;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.deleteNode {
+    margin-top: 15px;
+    width: 120px;
+    height: 36px !important;
+}

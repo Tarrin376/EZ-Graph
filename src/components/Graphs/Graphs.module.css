@@ -1,0 +1,64 @@
+
+.wrapper {
+    background-color: #F0F2F4;
+    position: relative;
+    overflow: hidden;
+}
+
+.btnAction {
+    width: 100px;
+    height: 36px;
+    font-size: 1rem;
+    box-shadow: 0px 0px 5px rgb(202, 202, 202);
+}
+
+.graphOptions {
+    position: absolute;
+    z-index: 20;
+    padding: 15px;
+}
+
+.networkName {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.graphStyle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.graphStylesDropdown {
+    background-color: white;
+    border: 1px solid #929292;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.checkBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.graphs {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.btnActions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.downloadBtn {
+    background-color: #757575 !important;
+}
+
+.downloadBtn:hover {
+    background-color: #808080 !important;
+}

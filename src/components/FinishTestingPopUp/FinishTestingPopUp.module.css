@@ -1,0 +1,11 @@
+
+.message {
+    text-align: center;
+}
+
+.rememberMessage {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
